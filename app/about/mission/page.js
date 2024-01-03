@@ -1,10 +1,10 @@
 
 const mission = () => {
     return (
-        <main className='mt-10'>
-            mission page
-        </main>
+        <div>
+            this is mission page.
+        </div>
     );
 };
 
-export default page;
+export default mission;

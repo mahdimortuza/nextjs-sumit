@@ -7,4 +7,4 @@ const about = () => {
     );
 };
 
-export default page;
+export default about;
