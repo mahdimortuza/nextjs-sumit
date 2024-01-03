@@ -1,5 +1,14 @@
 import getPost from "@/lib/getpost";
 
+export const generateMetadata = async ({params}) => {
+  const { id } = params;
+  const post = await getPost(id);
+   return {
+    title: post.title,
+    description: post.body
+  }
+}
+
 const PostPage = async ({ params }) => {
   const { id } = params;
 
