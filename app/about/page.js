@@ -1,5 +1,6 @@
 
-const about = () => {
+const About = () => {
+    throw new Error("Error happened!!!")
     return (
         <main className="mt-10">
             this is about page
@@ -7,4 +8,4 @@ const about = () => {
     );
 };
 
-export default about;
+export default About;
